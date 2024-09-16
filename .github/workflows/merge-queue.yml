@@ -4,6 +4,8 @@ on:
     branches: [github-merge-queue]
   pull_request:
     branches: [github-merge-queue]
+  merge_group: 
+    types: [checks_requested]
 jobs:
   test:
     runs-on: ubuntu-latest
