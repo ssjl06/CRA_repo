@@ -6,7 +6,7 @@ on:
     branches: [github-merge-queue]
   jobs:
     test:
-	  runs-on: ubuntu-latest
-	  steps:
-	    - name: test echo
-		  run: echo test
+      runs-on: ubuntu-latest
+      steps:
+        - name: test echo
+          run: echo test
