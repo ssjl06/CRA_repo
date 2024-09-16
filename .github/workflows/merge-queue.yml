@@ -1,5 +1,4 @@
 name: test merge queue
-
 on:
   push:
     branches: [github-merge-queue]
@@ -9,5 +8,5 @@ on:
     test:
 	  runs-on: ubuntu-latest
 	  steps:
-	    -name: test echo
-		 run: echo test
+	    - name: test echo
+		  run: echo test
