@@ -1,0 +1,13 @@
+name: test merge queue
+
+on:
+  push:
+    branches: [github-merge-queue]
+  pull_request:
+    branches: [github-merge-queue]
+  jobs:
+    test:
+	  runs-on: ubuntu-latest
+	  steps:
+	    -name: test echo
+		 run: echo test
